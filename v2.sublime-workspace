@@ -1,0 +1,613 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"BASE",
+				"BASE_DEBUG_BUILD"
+			],
+			[
+				"HUN",
+				"HUNTER_BUILD"
+			],
+			[
+				"left",
+				"leftHandPosition"
+			],
+			[
+				"for",
+				"for"
+			],
+			[
+				"query",
+				"querySelectorAll"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"ava",
+				"avatarMaxY"
+			],
+			[
+				"av",
+				"avatarPosition"
+			],
+			[
+				"Replace",
+				"ReplaceAll"
+			],
+			[
+				"Spi",
+				"Sprintf"
+			],
+			[
+				"Sprint",
+				"Sprintf"
+			],
+			[
+				"--",
+				"--horus-blue-2"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"inte",
+				"internalServerError"
+			],
+			[
+				"P",
+				"Println"
+			],
+			[
+				"Pri",
+				"Println"
+			],
+			[
+				"Spri",
+				"Sprintf"
+			],
+			[
+				"Map",
+				"MapFile{}"
+			],
+			[
+				"File",
+				"FileDirEntrySort"
+			],
+			[
+				"Ex",
+				"Exit"
+			],
+			[
+				"Inf",
+				"Info"
+			],
+			[
+				"er",
+				"Err"
+			],
+			[
+				"In",
+				"Info"
+			],
+			[
+				"defau",
+				"default_data"
+			],
+			[
+				"L",
+				"Length()"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"New",
+				"NewTable"
+			],
+			[
+				"Par",
+				"ParseFloat"
+			],
+			[
+				"Pa",
+				"ParseLength"
+			],
+			[
+				"Sprin",
+				"Sprintf"
+			],
+			[
+				"file",
+				"fileExists"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "v2.sublime-project",
+			"settings":
+			{
+				"buffer_size": 91,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAACMAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAnAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AQAAACcAAAAAAAAASQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJwAAAAAAAAAnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAACMAAAAAAAAAJAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAAQIFA"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "node_modules"
+					},
+					"DQAAAEMAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABEAAAAAAAAAAUAAAAqLmNzc0QAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAABGAAAAAAAAAEcAAAAAAAAAAAAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAABJAAAAAAAAAEoAAAAAAAAAAAAAAEoAAAAAAAAASwAAAAAAAAAAAAAASwAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAE0AAAAAAAAAAAAAAE0AAAAAAAAATgAAAAAAAAAAAAAATgAAAAAAAABPAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQwAAAAAAAABIAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"projec",
+				"Project: Edit Project"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"proje",
+				"Project: Save As"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"form",
+				"LSP: Format File"
+			],
+			[
+				"forma",
+				"LSP: Format File"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"refres",
+				"Project: Refresh Folders"
+			],
+			[
+				"color",
+				"UI: Customize Color Scheme"
+			],
+			[
+				"scheme",
+				"UI: Customize Color Scheme"
+			],
+			[
+				"refr",
+				"Project: Refresh Folders"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"pref",
+				"Preferences: Key Bindings"
+			],
+			[
+				"pac instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sideb",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"package c",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/frank/Sources/user/an/vr2"
+	],
+	"file_history":
+	[
+		"/home/frank/Mounts/supercomputer/.profile",
+		"/home/frank/Mounts/supercomputer/Sources/horus/base/cmp/src/horus/cmp/plg/cuda/CMakeLists.txt",
+		"/home/frank/Mounts/supercomputer/Sources/horus/base/cmp/src/horus/cmp/plg/cuda/jpeg_encoder/CMakeLists.txt",
+		"/home/frank/Mounts/supercomputer/Sources/horus/base/sdk/src/horus/ext/cuda/CMakeLists.txt",
+		"/home/frank/Mounts/supercomputer/Sources/horus/base/cmake/find_library_packages.cmake",
+		"/home/frank/Mounts/supercomputer/Sources/horus/base/CMakeLists.txt",
+		"/home/frank/Mounts/supercomputer/Sources/horus/base/cmake/pkg_config/cuda_pkgconfig.cmake",
+		"/home/frank/Mounts/supercomputer/Builds/horus/base/gcc/debug/CMakeFiles/rules.ninja",
+		"/home/frank/Mounts/supercomputer/Builds/horus/base/gcc/debug/build.ninja",
+		"/home/frank/Mounts/supercomputer/Sources/horus/gcc8_env",
+		"/home/frank/Mounts/supercomputer/.local/bin/horus_gcc8_env",
+		"/home/frank/Mounts/ragnar/Sources/an/vr2/frontend/player-settings.js",
+		"/home/frank/Mounts/ragnar/Sources/an/vr2/frontend/movement-recorder.js",
+		"/home/frank/Mounts/ragnar/Sources/an/vr2/frontend/tracked-vr-hands.js",
+		"/home/frank/Mounts/ragnar/Sources/an/vr2/backend/server.js",
+		"/home/frank/Mounts/ragnar/Sources/an/vr2/frontend/index.js",
+		"/home/frank/Mounts/ragnar/Sources/an/vr2/frontend/utils.js",
+		"/home/frank/Mounts/ragnar/Sources/an/vr2/public/scene.html",
+		"/home/frank/Mounts/ragnar/Sources/aframe/src/components/hand-controls.js",
+		"/home/frank/Sources/user/an/three.js/src/renderers/webvr/WebXRManager.js",
+		"/home/frank/Sources/user/an/aframe/src/core/scene/a-scene.js",
+		"/home/frank/Sources/user/an/three.js-r90/src/renderers/webvr/WebVRManager.js",
+		"/home/frank/Sources/user/an/three.js-r90/src/renderers/WebGLRenderer.js",
+		"/home/frank/Sources/user/an/vr2/frontend/player-settings.js",
+		"/home/frank/Sources/user/an/three.js-r90/examples/js/vr/WebVR.js",
+		"/home/frank/Sources/user/an/vr2/backend/server.js",
+		"/home/frank/Sources/user/an/vr2/public/scene.html",
+		"/home/frank/Sources/user/an/aframe/src/utils/device.js",
+		"/home/frank/Sources/user/an/aframe/src/utils/entity.js",
+		"/home/frank/Sources/user/cbare/meson.build",
+		"/home/frank/Sources/user/an/an.sublime-project",
+		"/home/frank/Mounts/ragnar/Sources/an/vr2/package.json",
+		"/home/frank/Mounts/ragnar/Sources/an/vr2/frontend/dynamic-room.js",
+		"/home/frank/Sources/horus/ideaform/config.go",
+		"/home/frank/Sources/horus/ideaform/cmd/ideaform/main.go",
+		"/home/frank/Sources/horus/imageweb/cmd/imageweb/main.go",
+		"/home/frank/Sources/horus/ideaform/mail.go",
+		"/home/frank/Sources/horus/ideaform/utils/fs.go",
+		"/home/frank/Sources/horus/ideaform/utils/fs_test.go",
+		"/home/frank/Sources/horus/ideaform/example-config.toml",
+		"/home/frank/Sources/horus/ideaform/tools.go",
+		"/home/frank/Sources/horus/ideaform/test.toml",
+		"/home/frank/Sources/horus/ideaform/server.go",
+		"/home/frank/Sources/horus/imageweb/server.go",
+		"/home/frank/Sources/horus/ideaform/public/css/layout.css",
+		"/home/frank/Sources/horus/ideaform/public/css/forms.css",
+		"/home/frank/Sources/horus/ideaform/public/css/main.css",
+		"/home/frank/Sources/horus/ideaform/resources.go",
+		"/home/frank/Sources/horus/ideaform/protect_openbsd.go",
+		"/home/frank/Sources/horus/ideaform/protect.go",
+		"/home/frank/Sources/horus/ideaform/templates/form.html",
+		"/home/frank/Sources/horus/ideaform/templates/thankyou.html",
+		"/home/frank/Sources/horus/ideaform/templates/include/base.html",
+		"/home/frank/Sources/horus/imageweb/README.md",
+		"/home/frank/Sources/horus/imageweb/utils/fs.go",
+		"/usr/lib/go/src/io/fs/fs.go",
+		"/home/frank/Sources/horus/imageweb/utils/fs_test.go",
+		"/home/frank/Sources/servers/imageserver/deploy.sh",
+		"/home/frank/Sources/yocto/manuals/config.toml",
+		"/home/frank/Sources/yocto/manuals/.gitlab-ci.yml",
+		"/home/frank/Sources/servers/vaultserver/README.md",
+		"/home/frank/Sources/servers/drist/examples/local_unit_test/script",
+		"/home/frank/Sources/servers/exp/recipes/openbsd/bootstrap/script",
+		"/home/frank/Sources/servers/imageserver/provision.sh",
+		"/home/frank/Sources/servers/vaultserver/provision.sh",
+		"/home/frank/Sources/yocto/manuals/imageweb/embedded/.extensions.md",
+		"/home/frank/Sources/horus/imageweb/cmd/imageweb-check/main.go",
+		"/home/frank/Sources/horus/imageweb/.gitlab-ci.yml",
+		"/home/frank/Sources/horus/imageweb/log/log.go",
+		"/home/frank/Sources/horus/horus-deploy/horus_deploy/__init__.py",
+		"/home/frank/Sources/horus/horus-deploy/CHANGES.md",
+		"/home/frank/Sources/horus/imageweb/example/example.toml",
+		"/home/frank/Sources/horus/imageweb/templates/listing.html",
+		"/home/frank/Mounts/supercomputer/Sources/servers/archive/nixos/configuration.nix",
+		"/home/frank/Mounts/supercomputer/Sources/servers/archive/nixos/networking.nix",
+		"/home/frank/Mounts/supercomputer/Sources/servers/archive/nixos/users.nix",
+		"/home/frank/Sources/horus/horus-remote-api/setup.cfg",
+		"/home/frank/Sources/horus/horus-deploy/.github/workflows/python-publish.yml",
+		"/home/frank/Sources/horus/horus-deploy/docs/installation.md",
+		"/home/frank/Sources/horus/horus-remote-api/README.md",
+		"/home/frank/Sources/horus/horus-deploy/README.md",
+		"/home/frank/Sources/horus/horus-deploy/setup.cfg",
+		"/home/frank/Sources/horus/horus-deploy/requirements.txt",
+		"/home/frank/Sources/horus/horus-remote-api/docs/installation.md",
+		"/home/frank/Sources/horus/horus-remote-api/horus_remote_api/client.py",
+		"/home/frank/Sources/horus/horus-remote-api/horus_remote_api/connection.py",
+		"/home/frank/Sources/horus/horus-remote-api/horus_remote_api/connection_socketio.py",
+		"/home/frank/Sources/horus/horus-remote-api/horus_remote_api/types.py",
+		"/home/frank/Sources/horus/horus-remote-api/horus_remote_api/utils.py",
+		"/home/frank/Sources/horus/horus-remote-api/LICENSE",
+		"/home/frank/Mounts/ragnar/Sources/an/vr2/frontend/config.js",
+		"/home/frank/Mounts/ragnar/Sources/an/vr2/frontend/restrict-position.js",
+		"/home/frank/Sources/servers/vaultserver/vmrun.sh",
+		"/home/frank/Sources/servers/vaultserver/vm.pkr.hcl",
+		"/home/frank/Sources/plottest/main.go",
+		"/home/frank/Sources/imageweb/utils/fs.go",
+		"/home/frank/Sources/rtsptest/player.html",
+		"/home/frank/Sources/rtsptest/console-export-2022-4-20_16-10-48.txt",
+		"/home/frank/Mounts/supercomputer/Sources/horus/horus-web-builder/frontend/src/Components/Dashboard/Control/H264Player.tsx",
+		"/home/frank/Mounts/supercomputer_yocto/yocto-configurations/tools/ym",
+		"/home/frank/Mounts/supercomputer/Sources/horus/horus-web-builder/frontend/src/Components/Dashboard/Widgets/RtspWidget.tsx",
+		"/home/frank/Mounts/ragnar/Sources/an/vr2/frontend/custom-look-controls.js",
+		"/home/frank/Sources/aframe/src/components/camera.js",
+		"/home/frank/Sources/aframe/src/systems/camera.js",
+		"/home/frank/Sources/aframe/src/core/scene/a-scene.js",
+		"/home/frank/Sources/imageweb/documents/documents.go",
+		"/home/frank/Sources/imageweb/example/files/README.md",
+		"/home/frank/Sources/imageweb/public/css/layout.css",
+		"/home/frank/Sources/aframe/src/systems/webxr.js",
+		"/home/frank/Sources/aframe/src/core/a-entity.js",
+		"/home/frank/Mounts/ragnar/Sources/an/vr2/TODO.md",
+		"/home/frank/Sources/vtdb/main.c",
+		"/home/frank/Sources/vtdb/vtdb.c",
+		"/home/frank/Sources/vtdb/README.md",
+		"/home/frank/Sources/vtdb/contrib/watch-gnu-plot",
+		"/home/frank/Sources/servers/imageserver/scripts/syspatch.sh",
+		"/home/frank/Sources/servers/vaultserver/install/answers",
+		"/home/frank/Sources/servers/vaultserver/.gitignore",
+		"/home/frank/Sources/servers/vaultserver/scripts/getvaultwarden.sh",
+		"/home/frank/Sources/servers/imageserver/README.md",
+		"/home/frank/Sources/servers/imageserver/install/install.conf.tmpl",
+		"/home/frank/Sources/servers/imageserver/vm.pkr.hcl",
+		"/home/frank/Sources/servers/imageserver/scripts/build-imageweb.sh",
+		"/home/frank/Sources/servers/imageserver/scripts/random.sh",
+		"/home/frank/Sources/servers/imageserver/scripts/setup-mirror.sh",
+		"/home/frank/Sources/servers/imageserver/install/install.conf.sh",
+		"/home/frank/Sources/servers/imageserver/installconf.sh",
+		"/home/frank/Sources/servers/imageserver/mkinstallconf.sh"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 128.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "v2.sublime-project",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 91,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"lsp_uri": "file:///home/frank/Sources/user/an/vr2/v2.sublime-project",
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.diagnostics":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.language servers":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "v2.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"cmp/src/horus/cmp/plg/cuda",
+				"cmp/src/horus/cmp/plg/cuda/CMakeLists.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 166.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

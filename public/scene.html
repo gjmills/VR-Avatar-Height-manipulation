@@ -1,0 +1,172 @@
+<html>
+  <head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/easyrtc/easyrtc.js"></script>
+    <script src="./app.js"></script>
+  </head>
+  <body>
+    <a-scene dynamic-room>
+      <a-assets>
+        <!-- Experiment -->
+        <a-asset-item id="left-hand-model" src="./assets/leftHandHigh.glb"></a-asset-item>
+        <a-asset-item id="right-hand-model" src="./assets/rightHandHigh.glb"></a-asset-item>
+
+        <template id="camera-rig-template">
+          <a-entity></a-entity>
+        </template>
+
+<!--         <template id="body-template">
+          <a-box color="blue" depth=".22" height="1" width=".22" position="0 -1 0"></a-box>
+        </template> -->
+
+        <template id="body-template">
+          <a-cylinder class="body"
+            color="red"
+            height="2"
+            radius="0.55 0.55 0.55"
+            scale="0.37 0.37 0.2"
+            position="0 -0.62 0">
+            <a-cylinder class="nek"
+              color="red"
+              width="0.15"
+              scale="0.23 0.25 0.25"
+              position="0 1 0">
+            </a-cylinder>
+            <a-cylinder class="shouder-left"
+              color="red"
+              width="1"
+              radius="0.6 0.6 0.6"
+              scale="0.35 0.25 0.35"
+              position="-0.55 0.88 0">
+            </a-cylinder>
+        <!--     <a-cylinder class="arm-left"
+              color="red"
+              height="4.5"
+              radius="0.5 0.5 0.5"
+              scale="0.32 0.32 0.32"
+              position="-0.8 0.2 0"
+            ></a-cylinder> -->
+            <a-cylinder class="shouder-right"
+              color="red"
+              width="1"
+              radius="0.6 0.6 0.6"
+              scale="0.35 0.25 0.35"
+              position="0.55 0.88 0">
+            </a-cylinder>
+         <!--    <a-cylinder class="arm-right"
+              color="red"
+              height="4.5"
+              radius="0.5 0.5 0.5"
+              scale="0.32 0.32 0.32"
+              position="0.8 0.2 0"
+            ></a-cylinder> -->
+            <a-cylinder class="leg-left"
+              color="red"
+              height="3.5"
+              radius="0.25 0.25 0.25"
+              scale="0.8 0.8 1.45"
+              position="-0.3 -2 0"
+            ></a-cylinder>
+            <a-cylinder class="leg-right"
+              color="red"
+              height="3.5"
+              radius="0.25 0.25 0.25"
+              scale="0.8 0.8 1.45"
+              position="0.3 -2 0"
+            ></a-cylinder>
+          </a-cylinder>
+        </template>
+
+        <template id="head-template">
+          <a-entity class="avatar" networked-audio-source>
+            <a-sphere class="head" color="green" scale="0.2 0.22 0.2" ></a-sphere>
+            <a-entity class="face" position="0 0.05 0" >
+              <a-sphere class="eye" color="white" position="0.06 0.05 -0.16" scale="0.04 0.04 0.04" >
+                <a-sphere class="pupil" color="black" position="0 0 -1" scale="0.2 0.2 0.2"></a-sphere>
+              </a-sphere>
+              <a-sphere class="eye" color="white" position="-0.06 0.05 -0.16" scale="0.04 0.04 0.04">
+                <a-sphere class="pupil" color="black" position="0 0 -1" scale="0.2 0.2 0.2"></a-sphere>
+              </a-sphere>
+            </a-entity>
+          </a-entity>
+        </template>
+
+        <template id="left-hand-template">
+          <a-entity>
+            <a-gltf-model class="tracked-left-hand" rotation="0 0 90" src="#left-hand-model"></a-gltf-model>
+          </a-entity>
+        </template>
+
+        <template id="right-hand-template">
+          <a-entity>
+            <a-gltf-model class="tracked-right-hand" rotation="0 0 -90" src="#right-hand-model"></a-gltf-model>
+          </a-entity>
+        </template>
+      </a-assets>
+
+      <a-sky color="#6EBAA7"></a-sky>
+      <!-- <a-plane color="grey" height="100" width="100" rotation="-90 0 0"></a-plane> -->
+
+      <a-plane src="./floor.jpg" rotation="-90 0 0" width="30" height="30"></a-plane>
+
+      <a-box
+        color="tomato"
+        depth="20"
+        height="5"
+        width="0.5"
+        position="-10 2 0"
+      ></a-box>
+
+      <a-box
+        color="tomato"
+        depth="20"
+        height="5"
+        width="0.5"
+        position="10 2 0"
+      ></a-box>
+
+      <a-box
+        color="tomato"
+        depth="0.5"
+        height="5"
+        width="20"
+        position="0 2 -9.75"
+      ></a-box>
+
+      <a-box
+        color="tomato"
+        depth="0.5"
+        height="5"
+        width="20"
+        position="0 2 9.75"
+      ></a-box>
+
+      <a-image src="clock.png" depth="0.5" width="1.5" height="1.5" position="4.99 3 9.45"></a-image>
+
+      <a-image src="clock.png" depth="0.5" width="1.5" height="1.5" position="-4.99 3 -9.45"></a-image>
+
+      <a-circle color="white" position="0 0.01 -1.5" rotation="-90 0 0" radius="0.5"></a-circle>
+
+      <a-circle color="white" position="0 0.01 1.5" rotation="-90 0 0" radius="0.5"></a-circle>
+
+      <a-entity id="camera-rig"
+                player-settings
+                tracked-vr-hands
+                networked="template:#camera-rig-template;"
+      >
+        <a-entity
+          id="local-avatar"
+          camera
+          look-controls
+          wasd-controls
+          record-movement
+          networked="template:#head-template;" visible="false">
+        </a-entity>
+        <a-entity
+          follow-entity="query:#local-avatar"
+          networked="template:#body-template;" visible="true">
+        </a-entity>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>
